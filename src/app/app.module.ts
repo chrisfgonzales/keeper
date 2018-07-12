@@ -4,11 +4,13 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { MyExampleComponent } from './my-example/my-example.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    MyExampleComponent
+    MyExampleComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
